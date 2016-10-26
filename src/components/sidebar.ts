@@ -7,7 +7,6 @@ class SideBarViewModel {
     }
 
     heading = ko.observable<string>();
-
 }
 
 ko.components.register('sidebar', {
