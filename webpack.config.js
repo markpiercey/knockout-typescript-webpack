@@ -10,10 +10,13 @@ module.exports = {
     devtool: 'source-map', // if we want a source map 
     module: {
         loaders: [
-            { test: /\.html$/, loader: "raw-loader" },
-        {
+            {
+                test: /\.html$/,
+                loader: "html"
+            },
+            {
                 test: /\.tsx?$/,
                 loader: 'webpack-typescript?target=ES5&jsx=react'
-        }],
+            }],
     }
 }

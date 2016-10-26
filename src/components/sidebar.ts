@@ -12,7 +12,7 @@ class SideBarViewModel {
 
 ko.components.register('sidebar', {
     viewModel: SideBarViewModel,
-    template: require('raw!./sidebar.html')
+    template: require('./sidebar.html')
 });
 
 
